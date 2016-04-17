@@ -12,10 +12,10 @@ public class Fibonacci {
     static int f0=0,f1=1;
     //main method
     public static void main(String[] args) {
-        int f,inputNumber;
+        int f;
         
         Scanner input = new Scanner( System.in );
-        inputNumber=Integer.parseInt(input.nextLine());
+        int inputNumber = input.nextInt();
     
         System.out.printf("\n%d",f0);
         System.out.printf("\n%d",f1);
