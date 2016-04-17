@@ -13,7 +13,7 @@ public class Customer {
     private String firstName;
     private String lastName;
     private String address;
-    private int phoneNumber;
+    private long phoneNumber;
 
     public int getCustomerID() {
         return customerID;
@@ -47,11 +47,13 @@ public class Customer {
         this.address = address;
     }
 
-    public int getPhoneNumber() {
+    public long getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(long phoneNumber) {
         this.phoneNumber = phoneNumber;
-    }    
+    }
+
+    
 }
